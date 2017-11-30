@@ -3,8 +3,10 @@ body {
 	font-size: 20px;
 	line-height: 1.7;
 	padding: 0;
-	margin: 0;
-	background-color: white;
+	margin: auto;
+	max-width: 1280px;
+	background: url("../images/background.jpg");
+	background-size: 100% 100%;
 	}
 
 	/*Global*/
@@ -20,12 +22,12 @@ ul {
 }
 
 header {
-	background: #8DB316;
-	color: #52504E;
+	background: #AF2D0A;
+	color: #401C12;
 	padding-top: 30px;
 	min-height: 50px;
-	border-top: #4B890A 6px solid;
-	border-bottom: #4B890A 6px solid;
+	border-top: #801F05 6px solid;
+	border-bottom: #801F05 6px solid;
 	
 }
 
@@ -47,14 +49,22 @@ header ul {
 	padding: 0 0 0 0;
 }
 
-
+header li {
+	float: left;
+	display: inline;
+	padding: 0 10px 0 10px;
+}
 
 header nav {
 	float: right;
 }
 
+header #branding {
+	float: left;
+}
+
 header a:hover {
-	color: #4B890A;
+	color: #DE9986;
 }
 
 #banner {
@@ -63,18 +73,22 @@ header a:hover {
 }
 
 #menu {
-	padding: 30px;
+	padding: 15px;
 	color: black;
-	background: #8DB316;
-	border-top: #4B890A 6px solid;
+	background: #AF2D0A;
+	border-top: #801F05 6px solid;
+	border-bottom: #801F05 6px solid;
 	text-align: center;
+	clear: both;
 	}
 
 #menu a{
 	color: black;
 	text-decoration: none;
 	font-size: 25px;
-	
+}
+#menu a:hover {
+	color: #DE9986;
 }
 
 #menu li {
@@ -88,24 +102,84 @@ header a:hover {
 	
 }
 
+#search-bar {
+	background-color: #35424a;
+	padding: 20px;
+}
+#search-bar input[type=text] {
+	width: 400px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+#search-bar input[type=text]:focus {
+		width: 100%;
+}
+
 #content {
-	margin-top: 20px;
+	
 	color: black;
 	text-decoration: none;
 	text-align: center;
+	background-color: white;
 }
 
 #content .box {
 	float: left;
 	width: 30%;
 	padding-left: 100px;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+#newsletter {
+	padding: 5px;
+	color: white;
+	background: #35424a;
+}
+
+#newsletter h3 {
+	float: left;
+	font-size: 20px;
+	margin-left: 120px;
+}
+
+#newsletter form {
+	float: right;
+	margin: 15px;
+	
+}
+
+#newsletter input[type="email"] {
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+	margin-top: 8px;
+}
+
+.button {
+	height: 38px;
+	background: #801F05;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
 }
 
 footer {
 	padding: 15px;
 	color: black;
 	text-decoration: none;
-	background-color: #8DB316;
+	background-color: #AF2D0A;
 	text-align: center;
-	border-top: #4B890A 6px solid;
+	border-top: #801F05 6px solid;
+	font-size: 15px;
 }
