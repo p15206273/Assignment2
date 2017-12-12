@@ -174,7 +174,7 @@ figure:hover figcaption {
 	margin-top: 10px;
 }
 #newsletter form {	
-	margin: 0 10px 6px 10px;
+	margin: 0 10px 6px 30px;
 	float: left;
 }
 #newsletter input[type="email"] {

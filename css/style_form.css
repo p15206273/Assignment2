@@ -121,21 +121,37 @@ header a:hover {
 }
 #content {
 	text-decoration: none;
-	text-align: center;
+	min-height: 300px;
 	background-color: white;
 	border-right: #801F05 6px solid;
 	border-left: #801F05 6px solid;
+	text-align: center;
+}
+#form {
+	margin-top: 40px;
+	margin-left: auto;
+	display: inline-block;
+}
+#content input[type=text], input[type=password] {
+	width: 200px;
+	padding: 15px 20px;
+	margin: 20px 10px;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+#content button {
+	background-color: #801F05;
+	color: white;
+	padding: 12px 20px;
+	margin: auto;
+	border: none;
+	width: 30%;
+	margin-bottom: 10px;
+}
+#content button:hover {
+	opacity: 0.7;
 }
 
-#content .box {
-	width: 100%;
-	margin-left: auto;
-	margin-top: 20px;
-}
-#content img {
-	width: 180px;
-	border:#801F05 6px solid;
-}
 #newsletter {
 	color: white;
 	background: #35424a;
@@ -204,24 +220,11 @@ body {
 	#menu a {
 		font-size: 19px;
 	}
-#content {
-	text-decoration: none;
-	text-align: center;
-	background-color: white;
+#form {
+	padding-left: 30px;
+	padding-right: 30px;
 }
-#content .box {
-	float: left;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
-}
-#content img{
-	width: 200px;
-}
-#content h3 {
-	font-size: 18px;
-}
+
 #newsletter h3 {
 	float: left;
 }
@@ -300,19 +303,11 @@ header #branding {
 #search-bar input[type=text]:focus {
 		width: 100%;
 }
-#content .box {
-	float: left;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
+#form{
+	padding-left: 400px;
+	padding-right: 400px;
 }
-#content img{
-	width: 300px;
-}
-#content h3 {
-	font-size: 22px;
-}
+
 #newsletter h3 {
 	float: left;
 	font-size: 20px;

@@ -126,12 +126,14 @@ background-color: white;
 }
 #content h3{
 	font-size: 20px;
+	text-align: left;
 }
 #content p{
 	font-size: 15px;
 }
 #content ol {
 	font-size: 17px;
+	text-align: left;
 }
 #newsletter {
 	color: white;
@@ -145,7 +147,7 @@ background-color: white;
 	margin-top: 10px;
 }
 #newsletter form {	
-	margin: 0 10px 6px 10px;
+	margin: 0 10px 6px 30px;
 	float: left;
 }
 #newsletter input[type="email"] {
