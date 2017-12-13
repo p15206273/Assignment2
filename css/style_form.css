@@ -128,24 +128,22 @@ header a:hover {
 	text-align: center;
 }
 #form {
-	margin-top: 40px;
-	margin-left: auto;
-	display: inline-block;
+	margin-top: 20px;
 }
 #content input[type=text], input[type=password] {
-	width: 200px;
-	padding: 15px 20px;
-	margin: 20px 10px;
+	width: 100%;
+	padding: 12px 12px;
+	margin: 8px 0px;
 	border: 1px solid black;
 	box-sizing: border-box;
+	display: inline-block;
 }
 #content button {
 	background-color: #801F05;
 	color: white;
 	padding: 12px 20px;
-	margin: auto;
 	border: none;
-	width: 30%;
+	width: 40%;
 	margin-bottom: 10px;
 }
 #content button:hover {
@@ -220,11 +218,10 @@ body {
 	#menu a {
 		font-size: 19px;
 	}
-#form {
-	padding-left: 30px;
-	padding-right: 30px;
+#form{
+	padding-left: 200px;
+	padding-right: 200px;
 }
-
 #newsletter h3 {
 	float: left;
 }
