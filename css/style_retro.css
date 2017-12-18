@@ -128,7 +128,7 @@ header a:hover {
 }
 
 .gallery {
-  width: 360px;
+  width: 160px;
   margin: 0 auto;
   box-shadow: 0 1px 2px rgba(0,0,0,.3);
 }
@@ -137,7 +137,7 @@ header a:hover {
   position: relative;
   float: left;
   padding: 12px;
-	text-align: center;
+	padding-bottom: 30px;
 }
 
 .gallery img {
@@ -152,7 +152,7 @@ header a:hover {
 }
 
 .gallery div:hover img {
-  transform: scale(1.3,1.3);
+  transform: scale(1.7,1.7);
   transition: .7s transform;
 }
 
@@ -232,26 +232,22 @@ body {
 	
 }
 .gallery {
-  width: 700px;
+  width: 750px;
   margin: 0 auto;
-  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+ 
 }
 
 .gallery div {
-  position: relative;
-  float: left;
-  padding: 12px;
-	text-align: center;
+	padding-bottom: 30px;
 }
 
 .gallery img {
   width: 140px;
-  transition: .1s transform;
-  transform: translateZ(0); /* hack */
+
 }
 .gallery div:hover img {
   transform: scale(1.5,1.5);
-  transition: .7s transform;
+
 }
 #newsletter h3 {
 	float: left;
@@ -330,6 +326,10 @@ header #branding {
 }
 #search-bar input[type=text]:focus {
 		width: 100%;
+}
+.gallery div {
+	padding-bottom: 50px;
+	padding-left: 17px;
 }
 .gallery {
   width: 1250px;

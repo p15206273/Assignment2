@@ -123,6 +123,8 @@ header a:hover {
 color: black;
 text-decoration: none;
 background-color: white;
+border-right: #801F05 6px solid;
+border-left: #801F05 6px solid;
 }
 #content h3{
 	font-size: 20px;
@@ -131,9 +133,14 @@ background-color: white;
 #content p{
 	font-size: 15px;
 }
-#content ol {
+#content ul {
 	font-size: 17px;
 	text-align: left;
+}
+#map {
+  height: 300px;
+  width: 100%;
+	margin-bottom: 20px;
 }
 #newsletter {
 	color: white;
@@ -203,24 +210,11 @@ body {
 	#menu a {
 		font-size: 19px;
 	}
-#content {
-	text-decoration: none;
-	text-align: center;
-	background-color: white;
+	#map {
+  height: 500px;
 }
-#content .box {
-	float: left;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
-}
-#content img{
-	width: 200px;
-}
-#content h3 {
-	font-size: 18px;
-}
+
+
 #newsletter h3 {
 	float: left;
 }
@@ -299,18 +293,8 @@ header #branding {
 #search-bar input[type=text]:focus {
 		width: 100%;
 }
-#content .box {
-	float: left;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
-}
-#content img{
-	width: 300px;
-}
-#content h3 {
-	font-size: 22px;
+#map {
+  height: 500px;
 }
 #newsletter h3 {
 	float: left;
