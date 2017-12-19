@@ -1,0 +1,327 @@
+body {
+	font-family: Arial Black;
+	font-size: 15px;
+	line-height: 1.7;
+	padding: 0;
+	width: 360px;
+	color: black;
+	margin: auto;
+}
+	/*Global*/
+.container {
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+	/*Global ending*/
+header {
+	background:#AB9D9D;
+	color: #401C12;
+	border-top: #801F05 6px solid;
+	border-bottom: #801F05 6px solid;
+	
+}
+header h1 {
+	font-size: 40px;
+	font-family: Kristen ITC;
+	padding: 0 0 0 0;
+	margin: 5px 0 0 0;
+	text-align: center;
+	}
+header a{
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
+}
+header li {
+	float: left;
+	display: inline;
+	padding: 0 0 0 10px;
+}
+header nav {
+	float: right;
+	margin-top: 15px;
+}
+header a:hover {
+	color: #801F05;
+}
+#menu {
+	padding: 20px;
+	background: #AF2D0A;
+	border-bottom: #801F05 6px solid;
+	text-align: center;
+	clear: both;
+}
+/*Drop down button menu*/
+#menu nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+ 
+}
+#menu nav li {
+  display: inline-block;
+  position: relative;
+  background: #AF2D0A;
+  margin-right: -4px;
+  border: black 2px solid;
+  }
+
+#menu nav ul a:link,
+#menu nav ul a:visited {
+  height: 2em;
+  display: inline-block;
+  line-height: 2em;
+  width: 10em;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+#menu nav a:hover {
+  background: #AB9D9D;
+}
+
+#menu ul ul {
+  position: absolute;
+	bottom: 100%;
+	display: none;
+}
+#menu ul li:hover ul {
+  display: block;
+}
+#menu ul ul li {
+  display: block;/* makes the dropdwon menu items stack up vertically */
+  background: rgba(200,200,200,.9);/* makes the dropdown slightly translucent */
+  border: black 2px solid;/* removes the right border set under the main menu */
+}
+#search-bar {
+	background-color: #35424a;
+	padding: 10px;
+}
+#search-bar input[type=text] {
+	width: 200px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 5px 5px 5px 5px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+#search-bar input[type=text]:focus {
+		width: 100%;
+}
+#content {
+	text-decoration: none;
+	text-align: center;
+	background-color: white;
+	border-right: #801F05 6px solid;
+	border-left: #801F05 6px solid;
+	padding-bottom: 40px;
+}
+
+.mySlides {
+	width: 80%;
+	height: auto;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	margin: auto;
+	
+}
+
+#newsletter {
+	color: white;
+	background: #35424a;
+	text-align: center;
+
+}
+#newsletter h3 {
+	font-size: 15px;
+	padding: 0;
+	margin-top: 10px;
+}
+#newsletter form {	
+	margin: 0 10px 6px 30px;
+	float: left;
+}
+#newsletter input[type="email"] {
+	width: 150px;
+}
+.button {
+	float: right;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-left: 3px;
+	margin-top: 3px;
+	background: #801F05;
+	color: white;
+	border: 0;
+	height: 21px;
+}
+footer {
+	padding: 2px;
+	background-color: #AB9D9D;
+	text-align: center;
+	border-top: #801F05 6px solid;
+	font-size: 13px;
+}
+
+@media screen and (min-width: 500px){
+body {
+		width: 768px;
+	}
+	header h1 {
+		font-size: 50px;
+	}
+	header a {
+		font-size: 20px;
+	}
+	header a:hover {
+	color: #801F05;
+}
+	#banner {
+		background: url("../images/banner_tablet.png");
+		background-size: cover;
+		height: 250px;	
+	}
+	#menu {
+	text-align: center;
+	display: block;
+	padding: 5px;
+	border-top: #801F05 6px solid;
+	}
+	#menu ul ul {
+		position: absolute;
+		bottom: 100%;
+	}
+	#menu a {
+		font-size: 19px;
+	}
+
+#newsletter h3 {
+	float: left;
+}
+#newsletter form {	
+	margin: 11px; 
+	float: right;
+	
+}
+#newsletter input[type="email"] {
+	width: 180px;
+}
+.button {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+}
+
+@media (min-width: 900px) {
+body {
+	width: 1280px;
+	background-color: #8E8E8E;
+	margin: auto;
+	}
+
+header {
+	padding-top: 20px;
+	min-height: 50px;
+}
+header h1 {
+	font-size: 70px;
+	font-family: Kristen ITC;
+	padding: 0 0 0 0;
+	margin: 0 0 10px 0;
+	}
+
+header a{
+	color: black;
+	text-decoration: none;
+	font-size: 25px;
+}
+header li {
+	
+	padding: 0 0 0 20px;
+}
+header nav {
+	float: right;
+	margin-top: 80px;
+}
+header #branding {
+	float: left;
+}
+
+#banner {
+	height: 370px;
+	background: url("../images/banner.jpg");
+}
+#menu {
+	padding: 20px;
+	}
+/*Drop down button menu*/
+#menu ul ul {
+  display: none;
+  position: absolute;
+	top: 100%;
+}
+/*Drop down button menu end*/
+
+#search-bar {
+	padding: 15px;
+}
+#search-bar input[type=text] {
+	width: 400px;
+  padding: 12px 20px 12px 20px;
+	
+}
+#search-bar input[type=text]:focus {
+		width: 100%;
+}
+figure {
+	margin-left: 75px;
+}
+#newsletter h3 {
+	float: left;
+	font-size: 20px;
+	margin-left: 120px;
+	margin-top: 20px;
+}
+#newsletter form {
+	float: right;
+}
+#newsletter input[type="email"] {
+	padding: 4px;
+	height: 26px;
+	width: 400px;
+	margin-top: 8px;
+}
+.button {
+	height: 39px;
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 7px; 
+	margin-left: 20px;
+}
+
+footer {
+	padding: 8px;
+	font-size: 17px;
+}
+}
+
+
+
+
+
+
+
+
+

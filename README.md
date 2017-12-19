@@ -10,6 +10,8 @@ I used HTML to create the pages for my website and CSS to style them so they hav
 
 I used the same css style for every page. Although, I had to modify the content section for each page as it displays different information such as images, forms, texts, maps. 
 
+As I could not add any images to the readme file I created a separate folder called readme attachments where I will save the diagarams and pages designs.
+
 References: 
 
 1. https://developers.google.com/maps/documentation/javascript/adding-a-google-map
