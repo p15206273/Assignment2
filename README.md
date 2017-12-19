@@ -12,6 +12,8 @@ I used HTML and CSS validators to check if there are any errors in my code. The 
 
 The website has been tested on three different browsers like Google Chrome, Mozilla Firefox and Internet Explorer. The website is displayed properly on each browser and there are no errors. However, Mozilla Firefox did not display Arial Black font style and changed to different one. All CSS and JS galleries as well as map are displayed correctly.  Once I created the breakpoints I could test it on different screen resolutions. I used Inspect tool on Chrome web browser to display it on different devices. The design and all the elements changed sizes as I changed it to the different widths.
 
+For some reason the map is not loading when the help page is opened on github pages. You need to refresh the page to display the map.
+
 I could not add any images to the readme file so I created a separate folder called readme attachments where I will save the diagrams and pages designs. As you can see my initial designs differ from my final webpages. I decided to change it a little because I thought it will look better. 
 
 References: 
